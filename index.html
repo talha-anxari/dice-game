@@ -1,0 +1,33 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="shortcut icon" href="favicon/icons8-dice-16.png" type="image/x-icon">
+    <title>Dice Game</title>
+</head>
+<body>
+    <main>
+        <div class="dice-container">
+            <div class="dice-box">
+                <button onclick="checkNumber(`1`)" class="glow-on-hover" type="button">1</button>
+                <button onclick="checkNumber(`2`)" class="glow-on-hover" type="button">2</button>
+                <button onclick="checkNumber(`3`)" class="glow-on-hover" type="button">3</button>
+                <button onclick="checkNumber(`4`)" class="glow-on-hover" type="button">4</button>
+                <button onclick="checkNumber(`5`)" class="glow-on-hover" type="button">5</button>
+                <button onclick="checkNumber(`6`)" class="glow-on-hover" type="button">6</button>
+            </div>
+        <div class="user-container">
+            <h2>User Result</h2>
+            <h1 class="user-number">-</h1>
+            <h2>Result Number</h2>
+            <h1 class="random-result">-</h1>
+        </div>
+        <div class="result-container">
+            <h1 class="result">-</h1>
+        </div>
+    </div>
+    </main>
+    <script src="./js/index.js"></script>
+</body>
+</html>
